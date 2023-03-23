@@ -23,7 +23,6 @@ public class Taller01Sismos {
     }
     public static double[] ingresarDatos(int cantidad) {
         Random random = new Random();
-        System.out.println("ingresarDatos");
         return random.doubles(cantidad, 0.0, 10.0).toArray();
     }
     public static double buscarMayorSismo(double[] sismos) {
