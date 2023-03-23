@@ -6,7 +6,6 @@ import java.util.DoubleSummaryStatistics; //a
 public class Taller01Sismos {
     public static void main(String[] args) {
         boolean In = true;
-        System.out.println("main");
         double[] listaDeSismos = ingresarDatos(100);
         System.out.println(Arrays.toString(listaDeSismos));
         String[] menuString = {"Buscar el mayor sismo.","Contar sismos de magnitud igual o superior a 5.0.","Enviar SMS con cantidad de sismos de magnitud igual o superior a 7.0.", "Salir."};
