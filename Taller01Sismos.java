@@ -8,16 +8,16 @@ public class Taller01Sismos {
     public static void main(String[] args) {
         boolean In = true;
         System.out.println("main");
-        double[] listaDeSismos = ingresarDatos(5);
+        double[] listaDeSismos = ingresarDatos(100);
         System.out.println(Arrays.toString(listaDeSismos));
-        String[] menuString = {"Buscar el mayor sismo.","Contar sismos de magnitud igual o superior a 5.0.","Enviar sismos con cantidad de sismos de magnitud igual o superior a 7.0.", "Salir."};
+        String[] menuString = {"Buscar el mayor sismo.","Contar sismos de magnitud igual o superior a 5.0.","Enviar SMS con cantidad de sismos de magnitud igual o superior a 7.0.", "Salir."};
         while (In) {
             switch (Menu(menuString)) {
                 case 0:
-                    System.out.println("El sismo mas fuerte registrado en esta sesion ha tenido una intensidad de: " + buscarMayorSismo(listaDeSismos) + " ML.");
+                    System.out.println("El sismo mas fuerte registrado en esta sesion ha tenido una intensidad de: " + buscarMayorSismo(listaDeSismos) + " ML.\n");
                     break;
                 case 1:
-                    contarSismos(listaDeSismos);
+                    System.out.println("La cantidad de sismos cuya magnitud ha sido mayor a 5.0 es: " + contarSismos(listaDeSismos) + "\n");
                     break;
                 case 2:
                     enviarSMS(listaDeSismos);
@@ -31,7 +31,7 @@ public class Taller01Sismos {
     public static double[] ingresarDatos(int cantidad) {
         Random random = new Random();
         System.out.println("ingresarDatos");
-        return random.doubles(cantidad).toArray();
+        return random.doubles(cantidad, 0.0, 10.0).toArray();
     }
     public static double buscarMayorSismo(double[] sismos) {
         DoubleSummaryStatistics stats = Arrays.stream(sismos).summaryStatistics();
@@ -47,7 +47,11 @@ public class Taller01Sismos {
         return cantidad;
     }
     public static void enviarSMS(double[] sismos){ //Enviar SMS por cada sismo mayor a 7.0.
-        System.out.println("enviarSMS");
+        for (double seism: sismos) {
+            if (seism >= 7.0) {
+                System.out.println("\033[3mAlerta!!! se debe evacuar zona costera!\033[0m\nSismo de magnitud: \033[1m" + seism + "!\033[0m");
+            }
+        }
     }
 
     public static int Menu(String[] choices){
@@ -61,6 +65,7 @@ public class Taller01Sismos {
         Scanner SCAN = new Scanner(System.in);
         int choice = -1;
         do {
+            System.out.print("> ");
             choice = SCAN.nextInt();
         } while (choice >= choices.length + 1 || choice < 1);
         return choice - 1;
