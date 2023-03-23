@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.DoubleSummaryStatistics;
+import java.util.DoubleSummaryStatistics; //a
 
 public class Taller01Sismos {
     public static void main(String[] args) {
