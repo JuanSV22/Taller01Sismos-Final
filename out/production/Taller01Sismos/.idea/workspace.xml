@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b10a716-32fa-464d-b715-64c4dfa7f400" name="Changes" comment="Commit 2">
-      <change beforePath="$PROJECT_DIR$/Taller01Sismos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Taller01Sismos.java" afterDir="false" />
+    <list default="true" id="1b10a716-32fa-464d-b715-64c4dfa7f400" name="Changes" comment="Commit Final Final Final">
+      <change beforePath="$PROJECT_DIR$/Screenshot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +22,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Commit 2" />
-        <option name="rewordedMessage" value="Revert &quot;Commit 2&quot;&#10;&#10;This reverts commit 4272485c27d438d884784d019d33ed510cfc6634.&#10;&#10;&#10;Commit 2&#10;&#10;&#10;Commit 2" />
+        <option name="originalMessage" value="Commit 4" />
+        <option name="rewordedMessage" value="Commit 4&#10;&#10;&#10;Commit 4&#10;&#10;&#10;Commit 4" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="41492ef47dc2dae7711a41a17a18d47b973c3fbe" />
+    <option name="onto" value="98cdb4a044fbeed966583a1341281277baeda69b" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bb1702c3-0263-4b81-b0a2-ae73c1f19e3f" />
+        <option name="url" value="https://github.com/JuanSV22/Taller01Sismos-Final.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +61,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Taller01Sismos" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Taller01Sismos" />
+      <module name="Taller01Sismos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +107,63 @@
       <option name="project" value="LOCAL" />
       <updated>1679574853568</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 3">
+      <created>1679576836988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679576836988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit 4">
+      <created>1679578167511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578167511</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commit 4">
+      <created>1679578219715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578219715</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit 4">
+      <created>1679578797375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578797375</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit 4">
+      <created>1679578863445</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578863445</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit Final">
+      <created>1679578963631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578963631</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit Final">
+      <created>1679578981837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578981837</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Commit Final Final Final">
+      <created>1679579404475</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679579404475</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +180,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 1" />
     <MESSAGE value="Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
+    <MESSAGE value="Commit 3" />
+    <MESSAGE value="Commit 4" />
+    <MESSAGE value="Commit Final" />
+    <MESSAGE value="Commit Final Final Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Final Final Final" />
   </component>
 </project>

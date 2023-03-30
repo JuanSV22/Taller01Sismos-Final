@@ -5,7 +5,7 @@ import java.util.DoubleSummaryStatistics;
 
 public class Taller01Sismos {
     public static void main(String[] args) {
-        boolean In = true;
+        boolean In = true; //ftyftycytcyycytcrycukxjsrkdksdtuiedtkeuyjdmutke,djmedjmueryjfuker6iyf,r6,ykf,dyf,dkuridku6jtku6ke6lrul6k6rli7l8i7l7li67fl6rf,
         System.out.println("main");
         double[] listaDeSismos = ingresarDatos(100);
         System.out.println(Arrays.toString(listaDeSismos));
